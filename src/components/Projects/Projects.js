@@ -4,10 +4,10 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import leaf from "../../Assets/project1.png";
 // import emotion from "../../Assets/pic.png";
-import editor from "../../Assets/project1.png";
-import chatify from "../../Assets/project1.png";
+// import editor from "../../Assets/project1.png";
+import LoveFood from "../../Assets/project1.png";
 // import suicide from "../../Assets/pic.png";
-import bitsOfCode from "../../Assets/project1.png";
+import Editor from "../../Assets/project2.png";
 
 function Projects() {
     return (
@@ -23,7 +23,7 @@ function Projects() {
                 <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={chatify}
+                            imgPath={LoveFood}
                             isBlog={false}
                             title="LoveFood"
                             description="LoveFood - A Full-Stack Food Delivery Website
@@ -35,7 +35,7 @@ function Projects() {
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                            imgPath={bitsOfCode}
+                            imgPath={Editor}
                             isBlog={false}
                             title="Document Editing Tool"
                             description="Document Editing Tool
@@ -50,7 +50,7 @@ function Projects() {
                         />
                     </Col>
 
-                    <Col md={4} className="project-card">
+                    {/* <Col md={4} className="project-card">
                         <ProjectCard
                             imgPath={editor}
                             isBlog={false}
@@ -59,7 +59,7 @@ function Projects() {
                             ghLink="https://github.com/soumyajit4419/Editor.io"
                             demoLink="https://editor.soumya-jit.tech/"
                         />
-                    </Col>
+                    </Col> */}
 
                     {/* <Col md={4} className="project-card">
                         <ProjectCard
